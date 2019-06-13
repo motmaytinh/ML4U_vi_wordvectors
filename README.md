@@ -13,3 +13,24 @@ This project contains embedding for 174,080 Vietnamese unique words from a corpu
 
 ## Pre-trained models
 Download the [ML4U vi embedding](https://drive.google.com/open?id=1-2c3QWQ8XzSABjsYzMVUdNEE0fOspYcg).
+
+## Example
+
+```
+In[0]: 
+from gensim import models
+words = models.KeyedVectors.load_word2vec_format('ML4U_QA_embed.txt', binary=False)
+words.most_similar('nhà')
+
+Out[5]: 
+[('hoàng_đế', 0.8315562009811401),
+('quốc_vương', 0.7650110721588135),
+('pharaon', 0.699152410030365),
+('hoàng_hậu', 0.6941052675247192),
+('khalip', 0.6764698028564453),
+('hoàng_tử', 0.6755297183990479),
+('hoàng_thân', 0.6730912923812866),
+('chư_hầu', 0.6716309785842896),
+('thái_tử', 0.6599626541137695),
+('danh_tướng', 0.6498899459838867)]
+```
