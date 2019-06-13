@@ -20,7 +20,7 @@ Download the [ML4U vi embedding](https://drive.google.com/open?id=1-2c3QWQ8XzSAB
 In[0]: 
 from gensim import models
 words = models.KeyedVectors.load_word2vec_format('ML4U_QA_embed.txt', binary=False)
-words.most_similar('nhà')
+words.most_similar('vua')
 
 Out[5]: 
 [('hoàng_đế', 0.8315562009811401),
