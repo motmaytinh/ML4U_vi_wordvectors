@@ -13,7 +13,7 @@ This project contains embedding for 437,485 Vietnamese unique words from a corpu
 <!--* Check [this](https://github.com/facebookresearch/fastText) to install fastText.-->
 
 ## Pre-trained models
-Download the [ML4U vi embedding](https://drive.google.com/open?id=1-2c3QWQ8XzSABjsYzMVUdNEE0fOspYcg).
+Download the [ML4U vi embedding](https://drive.google.com/open?id=1-6amAqdYfJm-VkR0FBOLVelro5J0TJpE).
 
 ## Example
 
