@@ -1,9 +1,10 @@
 # Pre-trained word vectors for Vietnamese
 
-This project contains embedding for 174,080 Vietnamese unique words from a corpus of 10,000 top documents from Vietnamese Wikipedia. Note that all words are tokenized words.
+This project contains embedding for 437,485 Vietnamese unique words from a corpus of 93,546 top documents from Vietnamese Wikipedia. Note that all words are tokenized words.
 
 ## Requirements
 * gensim > =0.13.1 (for Word2Vec)
+* pyvi (for word tokenizer)
 <!--* fastText (for [fasttext](https://github.com/facebookresearch/fastText))-->
 	
 ## Background / References
